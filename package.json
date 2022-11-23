@@ -1,0 +1,18 @@
+{
+  "name": "proiot",
+  "version": "1.0.0",
+  "description": "ProIot node and react app",
+  "scripts": {
+    "postinstall": "cd react && npm install && cd .. && cd node && npm install",
+    "node": "npm run dev --prefix node",
+    "react": "npm run dev --prefix react",
+    "test": "npm run test --prefix react",
+    "start": "concurrently \"npm run node\" \"npm run react\""
+  },
+  "keywords": [],
+  "author": "andrechism",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
