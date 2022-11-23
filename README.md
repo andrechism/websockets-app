@@ -1,5 +1,7 @@
 # ProIot
 
+![image](https://user-images.githubusercontent.com/57547336/203461896-d350eff8-4f54-4fe1-9aa9-142fc9d0d7c2.png)
+
 ## Project overview
 
 - This project uses `concurrently` to run the backend and frontend at the same time.
